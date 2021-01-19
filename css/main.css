@@ -68,17 +68,23 @@ input:focus {
   text-align: right;
 }
 
- ul.social-icons {
+ul.social-icons {
   clear: right;
   float: right;
   margin: 8px 8px 0;
   position: relative;
 }
-.teacher__detail ul.social-icons{
-    float: none;
-    text-align: center;
+
+.teacher__detail {
+  text-align: center;
 }
- ul.social-icons li {
+
+.teacher__detail ul.social-icons {
+  float: none;
+  text-align: center;
+}
+
+ul.social-icons li {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   background: url(../img/social.png);
@@ -94,6 +100,7 @@ input:focus {
   height: 30px;
   width: 30px;
 }
+
 ul.social-icons li a {
   text-indent: -9999px;
   display: block;
@@ -110,35 +117,35 @@ ul.social-icons li.googleplus:hover {
   background-position: 0 -300px;
 }
 
- ul.social-icons li.facebook {
+ul.social-icons li.facebook {
   background-position: 0 -150px;
 }
 
- ul.social-icons li.facebook:hover {
+ul.social-icons li.facebook:hover {
   background-position: 0 -120px;
 }
 
- ul.social-icons li.twitter {
+ul.social-icons li.twitter {
   background-position: 0 -1170px;
 }
 
- ul.social-icons li.twitter:hover {
+ul.social-icons li.twitter:hover {
   background-position: 0 -1140px;
 }
 
- ul.social-icons li.pinterest {
+ul.social-icons li.pinterest {
   background-position: 0 -810px;
 }
 
- ul.social-icons li.pinterest:hover {
+ul.social-icons li.pinterest:hover {
   background-position: 0 -780px;
 }
 
- ul.social-icons li.rss {
+ul.social-icons li.rss {
   background-position: 0 -930px;
 }
 
- ul.social-icons li.rss:hover {
+ul.social-icons li.rss:hover {
   background-position: 0 -900px;
 }
 
@@ -796,10 +803,12 @@ header nav ul.reponsive li a {
   align-items: center;
   background: #252525 none repeat scroll 0 0;
 }
-.feedback .feedback__content .feedback__item .quote-wrap blockquote p{
+
+.feedback .feedback__content .feedback__item .quote-wrap blockquote p {
   line-height: 1.4;
 }
-.feedback .feedback__content .feedback__item .quote-wrap blockquote p i{
+
+.feedback .feedback__content .feedback__item .quote-wrap blockquote p i {
   margin-right: 10px;
   font-size: 1.5rem;
 }
@@ -1024,20 +1033,20 @@ p.tomtattin {
   float: left;
   padding: 5px;
   width: 38%; */
-  /* 	background-color:blue; */
+/* 	background-color:blue; */
 }
 
 /* div.box-right ul {
   margin-left: 20px;
   text-decoration: none; */
-  /*bỏ gạch chân */
+/*bỏ gạch chân */
 }
 
 /* div.box-right ul li a {
   color: #333;
   text-decoration: none; */
-  /*bỏ gạch chân */
- /*  font-size: 13px;
+/*bỏ gạch chân */
+/*  font-size: 13px;
 }
  */
 /* div.box-right ul li a:hover {
@@ -1171,7 +1180,7 @@ div#content-right {
   transition: all 0.3s ease-in-out;
   pointer-events: none;
   -webkit-transform: rotate(0g);
-          transform: rotate(0g);
+  transform: rotate(0g);
   background-color: rgba(0, 0, 0, 0.6);
   border: 3px solid #0276b3;
   -webkit-transition: all 0.3s ease;
@@ -1187,7 +1196,7 @@ div#content-right {
   font-size: 28px;
   color: #ffffff;
   -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -1196,12 +1205,12 @@ div#content-right {
   background-color: #1da2f3;
   border-color: #555;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .backToTop:hover i {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .backToTop-active {

@@ -6,11 +6,11 @@
       <div class="teacher__content">
          <div class="teacher__item">
             <div class="teacher__img">
-               <img src="img/teacher-v2-01.png" alt="">
+               <img src="img/thay_khuong.png" alt="">
             </div>
             <div class="teacher__detail">
-               <h3>Prof. Jocop</h3>
-               <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+               <h3>TS Nguyễn An Khương</h3>
+               <p>Giảng viên mật mã</p>
                <ul class="social-icons color">
             <li class="googleplus"><a title="googleplus" target="_blank"
                   href="http://www.googleplus.com/">googleplus</a></li>
@@ -22,11 +22,11 @@
          </div>
          <div class="teacher__item">
             <div class="teacher__img">
-               <img src="img/teacher-v2-02.png" alt="">
+               <img src="img/thay_dai.png" alt="">
             </div>
             <div class="teacher__detail">
-               <h3>Prof. Jocop</h3>
-               <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+               <h3>Th.S Nguyễn Ngọc Đại</h3>
+               <p>Giảng viên mạng máy tính</p>
                <ul class="social-icons color">
             <li class="googleplus"><a title="googleplus" target="_blank"
                   href="http://www.googleplus.com/">googleplus</a></li>
@@ -38,11 +38,11 @@
          </div>
          <div class="teacher__item">
             <div class="teacher__img">
-               <img src="img/teacher-v2-03.png" alt="">
+               <img src="img/co_huong.png" alt="">
             </div>
             <div class="teacher__detail">
-               <h3>Prof. Jocop</h3>
-               <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+               <h3>Th.S Phạm Thu Hương</h3>
+               <p>Giảng viên vật lý đại cương</p>
                <ul class="social-icons color">
             <li class="googleplus"><a title="googleplus" target="_blank"
                   href="http://www.googleplus.com/">googleplus</a></li>
