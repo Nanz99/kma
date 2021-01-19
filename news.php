@@ -21,12 +21,12 @@
     session_start();
     include("admin/modules/config.php");
     include("modules/header.php");
-   /*  include("modules/slider.php"); */
-    /* include("modules/banner.php"); */
+   /*  include("modules/slider.php"); 
+     include("modules/banner.php"); */
     include("modules/content.php");
     /* include("modules/about.php");
-    include("modules/teacher.php"); */
-   /*  include("modules/feedback.php");
+    include("modules/teacher.php"); 
+     include("modules/feedback.php");
     include("modules/contact.php"); */
     include("modules/footer.php");
 
