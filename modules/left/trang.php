@@ -21,7 +21,7 @@
 	$trang_hientai = isset($_GET['trang']) ? $_GET['trang'] : '1';
 	while($i<=$sotrang) {
 ?>
-  <a href="Index.php?xem=loaitin&id=<?php echo $_GET["id"]?>&trang=<?php echo $i;?>" class="box-trang <?php if($i==$trang_hientai){ echo 'active';} ?>">
+  <a href="news.php?xem=loaitin&id=<?php echo $_GET["id"]?>&trang=<?php echo $i;?>" class="box-trang <?php if($i==$trang_hientai){ echo 'active';} ?>">
     <?php echo $i;?>
   </a>
   <?php

@@ -29,7 +29,7 @@
 	$baiviet = $con->query($sql);
 	foreach($baiviet as $row) {
 		?>
-  <div class="box-tin"> <a href="Index.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" > <img src="upload/<?php echo $row["TenAnh"] ?>" ></a>
+  <div class="box-tin"> <a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" > <img src="upload/<?php echo $row["TenAnh"] ?>" ></a>
     <p><i>Thời Gian Đăng : <?php echo $row["ThoiGianDang"] ?></i></P>
     <a href="
     xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" >

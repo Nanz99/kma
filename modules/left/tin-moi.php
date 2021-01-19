@@ -18,7 +18,7 @@
 				$baiviet = $con->query($sql);
 				foreach($baiviet as $row) {
 			?>
-      <li><a href="Index.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" ><?php echo $row["TieuDe"] ?></a></li>
+      <li><a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" ><?php echo $row["TieuDe"] ?></a></li>
       <?php } ?>
     </ul>
   </div> -->
