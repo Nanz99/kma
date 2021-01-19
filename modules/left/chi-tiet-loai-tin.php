@@ -23,9 +23,9 @@
 <div class="box">
   <div class="box-right" style="width:100%">
     <?php foreach($baiviet as $row) { ?>
-    <div class="box-tin"> <a href="Index.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>"> <img src="upload/<?php echo $row["TenAnh"] ?>" /> </a>
+    <div class="box-tin"> <a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>"> <img src="upload/<?php echo $row["TenAnh"] ?>" /> </a>
       <p><i>Thời Gian Đăng : <?php echo $row["ThoiGianDang"] ?></i></p>
-      <p><a href="Index.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>"><Strong><?php echo $row["TieuDe"] ?></Strong></a></P>
+      <p><a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>"><Strong><?php echo $row["TieuDe"] ?></Strong></a></P>
       <p><?php echo $row["TomTat"] ?></p>
       <div style="clear: both"> </div>
     </div>

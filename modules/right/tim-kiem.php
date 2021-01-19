@@ -1,6 +1,6 @@
 <?php
 $currentURL1 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$currentURL = "Index.php?xem=loaitin";
+$currentURL = "news.php?xem=loaitin";
 ?>
 <Script>
 	function addurl(Str){
