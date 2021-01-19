@@ -22,7 +22,7 @@
    </div>
    <header>
       <div class="logo_img">
-         <a href="index.html" class="logo"></a>
+         <a href="Index.php" class="logo"></a>
       </div>
       <nav>
          <ul class="topnav" >
