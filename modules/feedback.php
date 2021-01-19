@@ -36,7 +36,7 @@
             <div class="quote-wrap dark">
    
                <blockquote>
-                  <p> <i class="fa fa-quote-left"></i>Chúng ta chỉ mất 4 giây để chụp một bức ảnh tốt nghiệp. Nhưng sẽ lưu lại ký ức của 4 năm thanh xuân tươi đẹp..</p>
+                  <p> <i class="fa fa-quote-left"></i>Chúng ta chỉ mất 5 giây để chụp một bức ảnh tốt nghiệp. Nhưng sẽ lưu lại ký ức của 5 năm thanh xuân tươi đẹp..</p>
                </blockquote>
 
                <div class="quote-author">
@@ -57,7 +57,7 @@
                </blockquote>
 
                <div class="quote-author">
-                  <img width="80" height="80" src="img/feedback_2.jpg" class="img-responsive" alt="thumb">
+                  <img width="80" height="80" src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.0-9/43331131_561734300925018_6451666874370359296_o.jpg?_nc_cat=107&ccb=2&_nc_sid=174925&_nc_ohc=uP4sJWqkQVgAX_PSsit&_nc_oc=AQk9Sd-GNe8OX67yvlMLSsS_Ikry9vFTiR3L9TqCWfsouKDucfL3rg3t2qTzAtqfVo0&_nc_ht=scontent.fsgn5-2.fna&oh=478e1e10742838de0ffb7cc9dc3a617a&oe=602A456A" class="img-responsive" alt="thumb">
 
                   <div class="quote-footer">
                      <h5 class="name"><a href="#">Dương Quốc Cường</a></h5>
