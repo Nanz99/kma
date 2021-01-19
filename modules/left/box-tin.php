@@ -6,9 +6,9 @@
 	foreach($baiviet as $row) {
     ?>
     <br>
-  <div class="box-tin"> <a href="" > <img src="upload/<?php echo $row["TenAnh"] ?>" ></a>
+    <div class="box-tin"> <a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" > <img src="upload/<?php echo $row["TenAnh"] ?>" ></a>
     <p><i>Thời Gian Đăng : <?php echo $row["ThoiGianDang"] ?></i></P>
-    <a href="" >
+    <a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" >
     <p>
     <h3><?php echo $row["TieuDe"] ?></h3>
     </P>

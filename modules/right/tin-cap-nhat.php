@@ -9,7 +9,7 @@
     <?php foreach($baiviet as $row)
 		{  ?>
     <div class="box-tin"> <br>
-      <a href="" > <img src="upload/<?php echo $row["TenAnh"] ?>" height="150px" />
+    <a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" > <img src="upload/<?php echo $row["TenAnh"] ?>" height="150px" />
       <p><?php echo $row["TieuDe"] ?></P>
       </a>
       <div style="clear: both"> </div>

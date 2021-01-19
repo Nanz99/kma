@@ -5,8 +5,8 @@
 	$baiviet = $con->query($sql);
 	foreach($baiviet as $row) {
 ?>
-  <div class="box-left"> <a href="" > <img src="upload/<?php echo $row["TenAnh"] ?>" height="300px"> </a>
-    <p class="tieudetin"><a href="" ><?php echo $row["TieuDe"] ?></a></p>
+  <div class="box-left"> <a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" > <img style="margin-bottom: 10px;" src="upload/<?php echo $row["TenAnh"] ?>" height="300px"> </a>
+    <p class="tieudetin"><a href="news.php?xem=baiviet&id=<?php echo $row["idBaiViet"] ?>" ><?php echo $row["TieuDe"] ?></a></p>
     
     <p class="tomtattin"><?php echo $row["TomTat"] ?></p>
   </div>
