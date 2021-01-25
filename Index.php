@@ -11,12 +11,15 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-  <link href="css/main.css" rel="stylesheet" type="text/css" />
-  <link href="css/reponsive.css" rel="stylesheet" type="text/css" />
+  <link href="css/main_min.css" rel="stylesheet" type="text/css" />
+  <link href="css/reponsive_min.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-  <div class="wrapper">
+<body class="preloading">
+ <div class="load">
+      <img src="img/loader.gif">
+   </div>
+  <div class="content">
     <?php
     session_start();
     include("admin/modules/config.php");
@@ -123,6 +126,11 @@ window.addEventListener("scroll", () => {
 
 backToTop.addEventListener("click", () => {
    window.scrollTo(0, 0);
+});
+
+$(window).on('load', function(event) {
+   $('body').removeClass('preloading');
+   $('.load').delay(1000).fadeOut('fast');
 });
   </script>
 </body>
